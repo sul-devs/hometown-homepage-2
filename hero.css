@@ -1,0 +1,26 @@
+#hero {
+  min-height: 85vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)),
+    url("https://images.pexels.com/photos/1035733/pexels-photo-1035733.jpeg?auto=compress&cs=tinysrgb&w=800")
+      no-repeat center center/cover;
+  color: #fff;
+  padding-block: 2em;
+  display: flex;
+  align-items: center;
+}
+
+#hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#hero h1 {
+  text-transform: uppercase;
+}
+
+#hero p {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}

@@ -1,0 +1,11 @@
+/* Variables */
+:root {
+  --primary-colour: rgb(0, 71, 99);
+  --secondary-colour: red;
+  --accent-colour: purple;
+  --nuetral-colour: #fff;
+
+  --background-colour: var(--primary-colour);
+  --text-colour: var(--nuetral-colour);
+  --button-colour: var(--accent-colour);
+}

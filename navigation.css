@@ -1,0 +1,19 @@
+#navigation-bar {
+  background-color: var(--background-colour);
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+}
+
+#navigation-bar a {
+  color: var(--nuetral-colour);
+}
+
+#navigation-bar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navigation-bar li {
+  padding-inline: 1em;
+}

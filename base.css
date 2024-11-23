@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav,
+header,
+section,
+aside,
+footer {
+  padding-block: 2em;
+}
+
+#main > section {
+  padding-block: 6em;
+}
+#main > section h2 {
+  margin-block: 1em;
+  text-transform: uppercase;
+}
+
+#main > section img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#main > *:not(:last-child) {
+  border-bottom: 1px solid grey;
+}
